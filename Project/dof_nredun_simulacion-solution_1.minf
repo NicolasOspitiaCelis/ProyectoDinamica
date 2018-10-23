@@ -1,0 +1,480 @@
+Input file: E:\Tutti il mio\Documentos\ProyectoDinamica\Project\simulacion-solution_1.minp
+
+
+Solver: Simcenter Motion Version 11 (11.0) Jun 15 2016 12:06:26 Intel Release 64bit
+Interface: P33_rc1 2016-06-15
+Hostname: DESKTOP-9TJT11O
+OS Type: Windows
+Release: 6.2
+Version: Build 9200
+Machine: 8664
+Integer size:    5000000
+Real size:    5000000
+Mcheps: 0.22204460492503E-15
+LMSMOTGGL is active
+
+[1482]
+NOTE:  The system data element specifies inconsistent units:
+  LENGTH.UNIT = MILLIMETER
+  MASS.UNIT   = KILOGRAM
+  FORCE.UNIT  = NEWTON
+Force and mass values are converted to a consistent set of units for
+solution and then converted back to the specified units before being
+reported.
+
+[1296]
+Warning (dynamic data element):  When "INTERPOLATED" is selected for the
+print method, the print frequency feature cannot be used.  PRINT.Freq is
+being reset to zero (disabled) and execution is continuing.
+ The GGL formulation is turned on.
+
+
+Features requiring licenses
+-----------------------
+sc_motion_solver "Motion Solver"
+
+
+
+------------------------------------------------------------
+   Entering Interactive Mode at Time =  0.0000000000000    
+------------------------------------------------------------
+
+SET SYSTEM System ENDING.TIME = 0.10000000000000
+STEP command
+
+[1134]
+Warning:  Prior to assembly the number of constraints, drivers and
+initial conditions is not equal to the number of generalized
+coordinates.  The assembly algorithm will be executed but the
+result will represent one of several possible solutions.
+Number of constraints, drivers, I.C's =                   66
+Number of generalized coordinates     =                   70
+
+Results achieved by the model assembly process with drivers:
+
+  Number of function evaluations =     1
+  Maximum constraint violation   =   0.498801E-11
+
+ Element: BARRA_1
+    Coordinate    New Value     Original Value  Difference
+    X              10.217         10.217         0.0000    
+    Y              152.66         152.66         0.0000    
+    Z             -25.000        -25.000         0.0000    
+    E0            0.46327        0.46327         0.0000    
+    E1            0.46327        0.46327         0.0000    
+    E2            0.53421        0.53421         0.0000    
+    E3            0.53421        0.53421         0.0000    
+
+ Element: BARRA_2
+    Coordinate    New Value     Original Value  Difference
+    X              376.99         376.99         0.0000    
+    Y              177.34         177.34         0.0000    
+    Z             -25.000        -25.000         0.0000    
+    E0            0.67155        0.67155         0.0000    
+    E1            0.67155        0.67155         0.0000    
+    E2            0.22139        0.22139         0.0000    
+    E3            0.22139        0.22139         0.0000    
+
+ Element: BARRA_3
+    Coordinate    New Value     Original Value  Difference
+    X              186.72         186.72         0.0000    
+    Y              268.26         268.26         0.0000    
+    Z             -25.000        -25.000         0.0000    
+    E0            0.50000        0.50000         0.0000    
+    E1            0.50000        0.50000         0.0000    
+    E2            0.50000        0.50000         0.0000    
+    E3            0.50000        0.50000         0.0000    
+
+ Element: BASE
+    Coordinate    New Value     Original Value  Difference
+    X              162.46         162.46         0.0000    
+    Y              65.414         65.414         0.0000    
+    Z             -25.000        -25.000         0.0000    
+    E0            0.69881        0.69881         0.0000    
+    E1           -0.10801       -0.10801         0.0000    
+    E2           -0.69881       -0.69881         0.0000    
+    E3           -0.10801       -0.10801         0.0000    
+
+ Element: EJE
+    Coordinate    New Value     Original Value  Difference
+    X              330.58         330.58         0.0000    
+    Y              227.42         227.42         0.0000    
+    Z             -25.000        -25.000         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: EJE_1
+    Coordinate    New Value     Original Value  Difference
+    X              323.32         323.32         0.0000    
+    Y              268.26         268.26         0.0000    
+    Z             -25.000        -25.000         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: EJE_2
+    Coordinate    New Value     Original Value  Difference
+    X              446.16         446.16         0.0000    
+    Y              90.018         90.018         0.0000    
+    Z             -25.000        -25.000         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: EJE_3
+    Coordinate    New Value     Original Value  Difference
+    X              50.119         50.119         0.0000    
+    Y              268.26         268.26         0.0000    
+    Z             -25.000        -25.000         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: EJE_4
+    Coordinate    New Value     Original Value  Difference
+    X              249.96         249.96         0.0000    
+    Y              168.25         168.25         0.0000    
+    Z             -25.000        -25.000         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+ Element: the_ground
+    Coordinate    New Value     Original Value  Difference
+    X              0.0000         0.0000         0.0000    
+    Y              0.0000         0.0000         0.0000    
+    Z              0.0000         0.0000         0.0000    
+    E0             1.0000         1.0000         0.0000    
+    E1             0.0000         0.0000         0.0000    
+    E2             0.0000         0.0000         0.0000    
+    E3             0.0000         0.0000         0.0000    
+
+
+Redundant constraint check at Time =  0.0000000000000    
+
+[1172]
+The following are redundant constraints and will be deleted from
+the system:
+                                                           Constraint
+   .........Element Type.........   ........Name........   ..Number..
+
+ Element: J009
+    Type: Planar joint           Constraint Number    2
+
+ Element: J005
+    Type: Revolute joint         Constraint Number    5
+
+ Element: J008
+    Type: Cylindrical joint      Constraint Number    2
+
+ Element: J002
+    Type: Revolute joint         Constraint Number    4
+
+
+The remaining constraints in which the redundant
+constraints are linearly dependent to are summarized as:
+
+Name: J009
+     constraint   2 is linearly dependent to:
+
+ Name: J006
+    Constraint:      1  Factor:  -0.7969    
+ Name: J009
+    Constraint:      1  Factor:   0.1301    
+ Name: J006
+    Constraint:      2  Factor:  -0.9862E-01
+ Name: J007
+    Constraint:      1  Factor:   -1.000    
+ Name: J007
+    Constraint:      2  Factor:  -0.1301    
+
+Name: J005
+     constraint   5 is linearly dependent to:
+
+ Name: J002
+    Constraint:      5  Factor:    1.000    
+ Name: J006
+    Constraint:      2  Factor:  -0.9807    
+ Name: J011
+    Constraint:      1  Factor:   0.9807    
+
+Name: J008
+     constraint   2 is linearly dependent to:
+
+ Name: J005
+    Constraint:      4  Factor:  -0.2760    
+ Name: J006
+    Constraint:      1  Factor:  -0.2319    
+ Name: J002
+    Constraint:      5  Factor:  -0.7135    
+ Name: J003
+    Constraint:      2  Factor:  -0.3638    
+ Name: J003
+    Constraint:      1  Factor:    1.000    
+ Name: J011
+    Constraint:      2  Factor:  -0.2319    
+ Name: J008
+    Constraint:      1  Factor:  -0.3638    
+
+Name: J002
+     constraint   4 is linearly dependent to:
+
+ Name: J005
+    Constraint:      4  Factor:    1.000    
+ Name: J006
+    Constraint:      1  Factor:   0.8403    
+ Name: J011
+    Constraint:      2  Factor:   0.8403    
+
+Ignoring Initial conditions, the following were chosen
+as independent coordinates:
+
+
+ Element: EJE_4
+    Coordinate:  E3        
+
+ Element: EJE
+    Coordinate:  X         
+
+ Element: BARRA_1
+    Coordinate:  Y         
+
+ Element: EJE
+    Coordinate:  Y         
+
+ Element: EJE_2
+    Coordinate:  X         
+
+ Element: BARRA_2
+    Coordinate:  Y         
+
+ Element: EJE
+    Coordinate:  E3        
+
+ Element: EJE_2
+    Coordinate:  E3        
+
+[1440]
+Warning:  Initial velocities of all generalized coordinates have
+been set to zero.
+Solution of initial velocities, using QR method:
+
+ Element: BARRA_1
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: BARRA_2
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: BARRA_3
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: BASE
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: EJE
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: EJE_1
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: EJE_2
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: EJE_3
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: EJE_4
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+ Element: the_ground
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
+
+Solution of velocities in local coordinates:
+
+ Element: BARRA_1
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: BARRA_2
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: BARRA_3
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: BASE
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: EJE
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: EJE_1
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: EJE_2
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: EJE_3
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: EJE_4
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+ Element: the_ground
+    Coordinate    Velocity
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
+
+[1022]
+Error detected in model analysis.  A matrix has rank deficiency after LU factor-
+ization.  This condition is most often caused by over constraint due to friction
+locking events.  When a stiction friction event is reached, one or more con-
+straints are added to lock motion in the joint.  (Locking due to stiction will
+occur if the static coefficient of friction is nonzero.)  If friction attempts
+to lock more than the available mechanism degrees of freedom, or if multiple
+friction elements simultaneously try to lock the same mechanism degrees of free-
+dom, the present condition will occur, and the friction constraints will become
+redundant.  Please consider modifying setting the stiction coefficient to zero.
+This will generate dynamic friction, but will avoid the lockup condition.
+  Number of rows =     62; Rank =     60
+   Quiting Motion.
+
+------------------------------------------------------------
+   Exiting Interactive Mode
+------------------------------------------------------------
+
+
+    Total elapsed CPU time:  0.6630859    
+    Total clock time:          0
