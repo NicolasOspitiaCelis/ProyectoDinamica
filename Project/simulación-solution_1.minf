@@ -44,13 +44,13 @@ Warning:  Prior to assembly the number of constraints, drivers and
 initial conditions is not equal to the number of generalized
 coordinates.  The assembly algorithm will be executed but the
 result will represent one of several possible solutions.
-Number of constraints, drivers, I.C's =                   44
-Number of generalized coordinates     =                   36
+Number of constraints, drivers, I.C's =                   42
+Number of generalized coordinates     =                   35
 
 Results achieved by the model assembly process with drivers:
 
   Number of function evaluations =     1
-  Maximum constraint violation   =   0.741807E-11
+  Maximum constraint violation   =   0.582645E-11
 
  Element: Barra_1
     Coordinate    New Value     Original Value  Difference
@@ -102,140 +102,165 @@ Results achieved by the model assembly process with drivers:
     E2             0.0000         0.0000         0.0000    
     E3             0.0000         0.0000         0.0000    
 
- Element: MOTION_J002_RZ
-    Coordinate    New Value     Original Value  Difference
-    Rel.angle     0.16209E-13    0.16209E-13     0.0000    
-
 [1172]
 The following are redundant constraints and will be deleted from
 the system:
                                                            Constraint
    .........Element Type.........   ........Name........   ..Number..
 
- Element: J004
-    Type: Revolute joint         Constraint Number    4
-
  Element: J003
-    Type: Revolute joint         Constraint Number    2
-
- Element: J004
-    Type: Revolute joint         Constraint Number    5
-
- Element: J006
-    Type: Revolute joint         Constraint Number    1
-
- Element: J006
-    Type: Revolute joint         Constraint Number    2
-
- Element: J004
-    Type: Revolute joint         Constraint Number    1
-
- Element: J006
     Type: Revolute joint         Constraint Number    4
 
- Element: J006
+ Element: J005
     Type: Revolute joint         Constraint Number    5
+
+ Element: J005
+    Type: Revolute joint         Constraint Number    2
+
+ Element: J005
+    Type: Revolute joint         Constraint Number    3
+
+ Element: J005
+    Type: Revolute joint         Constraint Number    4
+
+ Element: J002
+    Type: Revolute joint         Constraint Number    5
+
+ Element: J004
+    Type: Revolute joint         Constraint Number    5
+
+ Element: J002
+    Type: Revolute joint         Constraint Number    1
 
 
 The remaining constraints in which the redundant
 constraints are linearly dependent to are summarized as:
 
-Name: J004
-     constraint   4 is linearly dependent to:
-
- Name: J003
-    Constraint:      4  Factor:    1.000    
-
 Name: J003
-     constraint   2 is linearly dependent to:
-
- Name: Barra_2
-    Constraint:      1  Factor:  -0.2361E-01
- Name: J003
-    Constraint:      5  Factor:    1.831    
- Name: J003
-    Constraint:      4  Factor:  -0.4260E-01
- Name: J004
-    Constraint:      2  Factor:    1.000    
-
-Name: J004
-     constraint   5 is linearly dependent to:
-
- Name: J003
-    Constraint:      5  Factor:    1.000    
-
-Name: J006
-     constraint   1 is linearly dependent to:
-
- Name: Barra_3
-    Constraint:      1  Factor:  -0.3389    
- Name: the_ground
-    Constraint:      4  Factor:   0.3653    
- Name: J005
-    Constraint:      3  Factor:   0.6343    
- Name: J005
-    Constraint:      1  Factor:    1.000    
- Name: J006
-    Constraint:      3  Factor:  -0.6343    
-
-Name: J006
-     constraint   2 is linearly dependent to:
-
- Name: J005
-    Constraint:      5  Factor:  -0.3152    
- Name: J005
-    Constraint:      4  Factor:  -0.2329    
- Name: J005
-    Constraint:      2  Factor:    1.000    
-
-Name: J004
-     constraint   1 is linearly dependent to:
-
- Name: Barra_2
-    Constraint:      1  Factor:   -1.789    
- Name: the_ground
-    Constraint:      4  Factor:   0.8430    
- Name: J003
-    Constraint:      3  Factor:  -0.2383E-01
- Name: J004
-    Constraint:      3  Factor:   0.2383E-01
- Name: J003
-    Constraint:      5  Factor:  -0.2418E-01
- Name: J003
-    Constraint:      1  Factor:    1.000    
-
-Name: J006
      constraint   4 is linearly dependent to:
 
- Name: J005
-    Constraint:      4  Factor:    1.000    
+ Name: J006
+    Constraint:      4  Factor:  -0.4517    
+ Name: J002
+    Constraint:      4  Factor:   -1.000    
+ Name: J004
+    Constraint:      4  Factor:   0.6801    
 
-Name: J006
+Name: J005
      constraint   5 is linearly dependent to:
 
- Name: J005
-    Constraint:      5  Factor:    1.000    
- Using QR Initial Velocity Method
+ Name: J002
+    Constraint:      2  Factor:   0.1578    
+ Name: J006
+    Constraint:      4  Factor:   0.6417E-01
+ Name: J002
+    Constraint:      4  Factor:   0.6068E-01
+ Name: J003
+    Constraint:      2  Factor:   0.1578    
+ Name: J003
+    Constraint:      5  Factor:  -0.9607    
+ Name: J004
+    Constraint:      2  Factor:  -0.1578    
+ Name: J006
+    Constraint:      5  Factor:  -0.1316    
+ Name: J006
+    Constraint:      2  Factor:   0.1578    
 
-[1286]
-Warning:  Initial conditions may not be sufficient (DAP2).
+Name: J005
+     constraint   2 is linearly dependent to:
+
+ Name: J002
+    Constraint:      2  Factor:    1.000    
+
+Name: J005
+     constraint   3 is linearly dependent to:
+
+ Name: J002
+    Constraint:      3  Factor:    1.000    
+
+Name: J005
+     constraint   4 is linearly dependent to:
+
+ Name: J002
+    Constraint:      4  Factor:    1.000    
+
+Name: J002
+     constraint   5 is linearly dependent to:
+
+ Name: J002
+    Constraint:      2  Factor:   0.1578    
+ Name: J006
+    Constraint:      4  Factor:   0.6417E-01
+ Name: J002
+    Constraint:      4  Factor:   0.6068E-01
+ Name: J003
+    Constraint:      2  Factor:   0.1578    
+ Name: J003
+    Constraint:      5  Factor:  -0.9607    
+ Name: J004
+    Constraint:      2  Factor:  -0.1578    
+ Name: J006
+    Constraint:      5  Factor:  -0.1316    
+ Name: J006
+    Constraint:      2  Factor:   0.1578    
+
+Name: J004
+     constraint   5 is linearly dependent to:
+
+ Name: Barra_2
+    Constraint:      1  Factor:   0.1239E-01
+ Name: J002
+    Constraint:      2  Factor:   0.5247    
+ Name: J006
+    Constraint:      4  Factor:   0.2133    
+ Name: J002
+    Constraint:      4  Factor:   0.2017    
+ Name: J003
+    Constraint:      2  Factor:   0.5247    
+ Name: J003
+    Constraint:      5  Factor:   0.1306    
+ Name: J004
+    Constraint:      4  Factor:   0.2235E-01
+ Name: J004
+    Constraint:      2  Factor:  -0.5247    
+ Name: J006
+    Constraint:      5  Factor:   0.1849    
+ Name: J006
+    Constraint:      2  Factor:   0.5247    
+
+Name: J002
+     constraint   1 is linearly dependent to:
+
+ Name: J005
+    Constraint:      1  Factor:    1.000    
+
+Ignoring Initial conditions, the following were chosen
+as independent coordinates:
+
+
+ Element: Barra_3
+    Coordinate:  Z         
+
+[1440]
+Warning:  Initial velocities of all generalized coordinates have
+been set to zero.
 Solution of initial velocities, using QR method:
 
  Element: Barra_1
     Coordinate    Velocity
-    X             -7.19264    
-    Y             0.304894E-12
-    Z             -8.46035    
-    E0            0.311878E-01
-    E1           -0.388802E-03
-    E2            0.815020E-01
-    E3            0.149584E-03
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    E0             0.00000    
+    E1             0.00000    
+    E2             0.00000    
+    E3             0.00000    
 
  Element: Barra_2
     Coordinate    Velocity
-    X             0.406010E-12
-    Y             0.590225E-12
-    Z             0.179819E-12
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
     E0             0.00000    
     E1             0.00000    
     E2             0.00000    
@@ -243,9 +268,9 @@ Solution of initial velocities, using QR method:
 
  Element: Barra_3
     Coordinate    Velocity
-    X             0.581698E-12
-    Y             0.351469E-12
-    Z            -0.146112E-12
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
     E0             0.00000    
     E1             0.00000    
     E2             0.00000    
@@ -253,9 +278,9 @@ Solution of initial velocities, using QR method:
 
  Element: Base
     Coordinate    Velocity
-    X             0.262361E-12
-    Y             0.262713E-13
-    Z            -0.189504E-12
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
     E0             0.00000    
     E1             0.00000    
     E2             0.00000    
@@ -270,45 +295,41 @@ Solution of initial velocities, using QR method:
     E1             0.00000    
     E2             0.00000    
     E3             0.00000    
-
- Element: MOTION_J002_RZ
-    Coordinate    Velocity
-    Rel.angle     0.174533    
 
 Solution of velocities in local coordinates:
 
  Element: Barra_1
     Coordinate    Velocity
-    X             -7.19264    
-    Y             0.304894E-12
-    Z             -8.46035    
-    OMEGA_XL     -0.123864E-02
-    OMEGA_YL      0.174525    
-    OMEGA_ZL      0.111462E-02
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
+    OMEGA_XL       0.00000    
+    OMEGA_YL       0.00000    
+    OMEGA_ZL       0.00000    
 
  Element: Barra_2
     Coordinate    Velocity
-    X             0.406010E-12
-    Y             0.590225E-12
-    Z             0.179819E-12
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
     OMEGA_XL       0.00000    
     OMEGA_YL       0.00000    
     OMEGA_ZL       0.00000    
 
  Element: Barra_3
     Coordinate    Velocity
-    X             0.581698E-12
-    Y             0.351469E-12
-    Z            -0.146112E-12
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
     OMEGA_XL       0.00000    
     OMEGA_YL       0.00000    
     OMEGA_ZL       0.00000    
 
  Element: Base
     Coordinate    Velocity
-    X             0.262361E-12
-    Y             0.262713E-13
-    Z            -0.189504E-12
+    X              0.00000    
+    Y              0.00000    
+    Z              0.00000    
     OMEGA_XL       0.00000    
     OMEGA_YL       0.00000    
     OMEGA_ZL       0.00000    
@@ -322,44 +343,38 @@ Solution of velocities in local coordinates:
     OMEGA_YL       0.00000    
     OMEGA_ZL       0.00000    
 
-Number of real data in the system     =     70031
-Number of integer data in the system  =     47000
+Number of real data in the system     =    102634
+Number of integer data in the system  =     61786
 
-
-[1310]
-Warning:  Number of constraints is greater than or equal to the number
-of generalized coordinates.
-  Number of generalized coordinates =                   36
-  Number of constraints             =                   36
 
 Solution of accelerations in local coordinates:
 
  Element: Barra_1
     Coordinate    Acceleration
-    X             -1.47661    
-    Y            -0.465434E-13
-    Z              1.25535    
-    OMEGAD_XL    -0.303136E-15
-    OMEGAD_YL     0.115997E-17
-    OMEGAD_ZL    -0.468037E-15
+    X             -2753.51    
+    Y             0.544066E-12
+    Z              409.518    
+    OMEGAD_XL    -0.245958    
+    OMEGAD_YL      34.6556    
+    OMEGAD_ZL     0.221331    
 
  Element: Barra_2
     Coordinate    Acceleration
-    X              0.00000    
-    Y              0.00000    
-    Z              0.00000    
-    OMEGAD_XL      0.00000    
-    OMEGAD_YL      0.00000    
-    OMEGAD_ZL      0.00000    
+    X              25.9684    
+    Y            -0.553605E-12
+    Z              1093.59    
+    OMEGAD_XL     0.206129E-02
+    OMEGAD_YL     -9.06734    
+    OMEGAD_ZL    -0.865123E-01
 
  Element: Barra_3
     Coordinate    Acceleration
-    X              0.00000    
-    Y              0.00000    
-    Z              0.00000    
-    OMEGAD_XL      0.00000    
-    OMEGAD_YL      0.00000    
-    OMEGAD_ZL      0.00000    
+    X             -19.1879    
+    Y             0.258765E-11
+    Z             -5754.70    
+    OMEGAD_XL    -0.157951E-01
+    OMEGAD_YL     -24.7430    
+    OMEGAD_ZL    -0.235622    
 
  Element: Base
     Coordinate    Acceleration
@@ -381,11 +396,55 @@ Solution of accelerations in local coordinates:
 
 Total Number of Bodies             =    5
 
-Total Number of Degrees of Freedom =   31
-Number of Kinematic Constraints    =   31
-Number of Drivers                  =    1
+Total Number of Degrees of Freedom =   30
+Number of Kinematic Constraints    =   29
+Number of Drivers                  =    0
 Number of Initial Conditions       =    0
-Number of Degrees of Freedom       =    0
+Number of Degrees of Freedom       =    1
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =     87
+  Current simulation time =   0.130778
+
+[1172]
+The following are redundant constraints and will be deleted from
+the system:
+                                                           Constraint
+   .........Element Type.........   ........Name........   ..Number..
+
+ Element: J003
+    Type: Revolute joint         Constraint Number    4
+
+ Element: J006
+    Type: Revolute joint         Constraint Number    2
+
+ Element: J003
+    Type: Revolute joint         Constraint Number    5
+
+ Element: J005
+    Type: Revolute joint         Constraint Number    3
+
+ Element: J005
+    Type: Revolute joint         Constraint Number    2
+
+ Element: J002
+    Type: Revolute joint         Constraint Number    4
+
+ Element: J002
+    Type: Revolute joint         Constraint Number    5
+
+ Element: J002
+    Type: Revolute joint         Constraint Number    1
+
+[1027]
+Warning from Sparse matrix solution package.
+Matrix decomposition failed. Solver will recreate symbolic factorization
+and try decomposition of matrix again.
+  Warning flag            =    111
+  Current simulation time =   0.266729
 
 [1172]
 The following are redundant constraints and will be deleted from
@@ -396,26 +455,26 @@ the system:
  Element: J004
     Type: Revolute joint         Constraint Number    5
 
- Element: J003
+ Element: J005
     Type: Revolute joint         Constraint Number    2
 
- Element: J003
-    Type: Revolute joint         Constraint Number    1
+ Element: J005
+    Type: Revolute joint         Constraint Number    3
 
- Element: J006
-    Type: Revolute joint         Constraint Number    1
-
- Element: J006
-    Type: Revolute joint         Constraint Number    2
-
- Element: J004
+ Element: J005
     Type: Revolute joint         Constraint Number    4
 
- Element: J006
-    Type: Revolute joint         Constraint Number    4
-
- Element: J006
+ Element: J005
     Type: Revolute joint         Constraint Number    5
+
+ Element: J002
+    Type: Revolute joint         Constraint Number    4
+
+ Element: J002
+    Type: Revolute joint         Constraint Number    5
+
+ Element: J002
+    Type: Revolute joint         Constraint Number    1
 
 [1172]
 The following are redundant constraints and will be deleted from
@@ -423,160 +482,44 @@ the system:
                                                            Constraint
    .........Element Type.........   ........Name........   ..Number..
 
- Element: J004
-    Type: Revolute joint         Constraint Number    5
-
- Element: J004
-    Type: Revolute joint         Constraint Number    4
-
- Element: J003
-    Type: Revolute joint         Constraint Number    2
-
- Element: J006
-    Type: Revolute joint         Constraint Number    1
-
  Element: J006
     Type: Revolute joint         Constraint Number    2
 
- Element: J004
-    Type: Revolute joint         Constraint Number    1
-
- Element: J006
-    Type: Revolute joint         Constraint Number    4
-
- Element: J006
-    Type: Revolute joint         Constraint Number    5
-
-[1172]
-The following are redundant constraints and will be deleted from
-the system:
-                                                           Constraint
-   .........Element Type.........   ........Name........   ..Number..
-
- Element: J004
-    Type: Revolute joint         Constraint Number    5
-
- Element: J003
+ Element: J005
     Type: Revolute joint         Constraint Number    2
 
- Element: J003
-    Type: Revolute joint         Constraint Number    1
+ Element: J005
+    Type: Revolute joint         Constraint Number    3
 
- Element: J006
-    Type: Revolute joint         Constraint Number    1
-
- Element: J006
-    Type: Revolute joint         Constraint Number    2
-
- Element: J004
+ Element: J005
     Type: Revolute joint         Constraint Number    4
 
- Element: J006
-    Type: Revolute joint         Constraint Number    4
-
- Element: J006
+ Element: J005
     Type: Revolute joint         Constraint Number    5
 
-[1172]
-The following are redundant constraints and will be deleted from
-the system:
-                                                           Constraint
-   .........Element Type.........   ........Name........   ..Number..
-
- Element: J004
-    Type: Revolute joint         Constraint Number    1
-
- Element: J004
+ Element: J002
     Type: Revolute joint         Constraint Number    4
 
- Element: J003
-    Type: Revolute joint         Constraint Number    2
+ Element: J002
+    Type: Revolute joint         Constraint Number    5
 
- Element: J006
+ Element: J002
     Type: Revolute joint         Constraint Number    1
 
- Element: J006
-    Type: Revolute joint         Constraint Number    2
+The number of symbolic factorizations of the Acceleration matrix =                    3
 
- Element: J004
-    Type: Revolute joint         Constraint Number    5
+The number of symbolic factorizations of BDF Jacobian matrix =                    3
 
- Element: J006
-    Type: Revolute joint         Constraint Number    4
+[1441]
+Final integrator statistics:
+  Number of steps                 =                 4305
+  Number of f-s                   =                25423
+  Number of j-s                   =                  642
+  Ratio of f-s/steps              =  5.9054587688734
+  Ratio of j-s/steps              = 0.14912891986063
+  Current time                    = 10.0000000000000
+  Total velocity computations     =                    2
+  Total position computations     =                    2
 
- Element: J006
-    Type: Revolute joint         Constraint Number    5
-
-[1172]
-The following are redundant constraints and will be deleted from
-the system:
-                                                           Constraint
-   .........Element Type.........   ........Name........   ..Number..
-
- Element: J004
-    Type: Revolute joint         Constraint Number    5
-
- Element: J003
-    Type: Revolute joint         Constraint Number    2
-
- Element: J003
-    Type: Revolute joint         Constraint Number    1
-
- Element: J006
-    Type: Revolute joint         Constraint Number    1
-
- Element: J006
-    Type: Revolute joint         Constraint Number    2
-
- Element: J004
-    Type: Revolute joint         Constraint Number    4
-
- Element: J006
-    Type: Revolute joint         Constraint Number    4
-
- Element: J006
-    Type: Revolute joint         Constraint Number    5
-
-[1172]
-The following are redundant constraints and will be deleted from
-the system:
-                                                           Constraint
-   .........Element Type.........   ........Name........   ..Number..
-
- Element: J004
-    Type: Revolute joint         Constraint Number    4
-
- Element: J003
-    Type: Revolute joint         Constraint Number    2
-
- Element: J004
-    Type: Revolute joint         Constraint Number    5
-
- Element: J006
-    Type: Revolute joint         Constraint Number    1
-
- Element: J006
-    Type: Revolute joint         Constraint Number    2
-
- Element: J004
-    Type: Revolute joint         Constraint Number    1
-
- Element: J006
-    Type: Revolute joint         Constraint Number    4
-
- Element: J006
-    Type: Revolute joint         Constraint Number    5
-
-The number of symbolic factorizations of the Acceleration matrix =                    1
-
-[1349]
-  Final statistics (from DOPRI5) :
-  Number of computed steps            =                 1042
-  Number of accepted steps            =                 1042
-  Number of rejected steps            =                    0
-  Number of acceleration computations =                    1
-  Number of velocity computations     =                 1001
-  Number of position computations     =                 1001
-
-    Total elapsed CPU time:  0.2929688    
-    Total clock time:          0
+    Total elapsed CPU time:  0.6489258    
+    Total clock time:          1
